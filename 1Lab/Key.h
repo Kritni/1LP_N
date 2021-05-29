@@ -4,7 +4,8 @@
 //Идентификатор транспорта
 enum Key {
     AIRPLANE, //Самолет
-    TRAIN //Поезд
+    TRAIN, //Поезд
+    SHIP //Корабль
 };
 
 #endif // KEY_H

@@ -1,9 +1,10 @@
 #include "In_Transport.h"
 #include "In_Airplane.h"
 #include "In_Train.h"
+#include "In_Ship.h"
 
 Transport* In_Transport(ifstream& ifst) {
-    Transport *T = new Transport; //Выделяем память под новый траспорт
+    Transport* T = new Transport; //Выделяем память под новый траспорт
     int K; //Идентификатор транспорта
 
     ifst >> K; //Считываем из файла идентификатор транспорта
@@ -14,6 +15,10 @@ Transport* In_Transport(ifstream& ifst) {
     else if (K == 2) { //Если K == 2, то это поезд
         T = (Transport*)In_Train(ifst);
         T->K = TRAIN; //Записывает то, что это поезд
+    }
+    else if (K == 3) { //Если K == 3, то это корабль
+        T = (Transport*)In_Ship(ifst);
+        T->K = SHIP;
     }
     else {
         return 0;
