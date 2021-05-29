@@ -1,2 +1,13 @@
-﻿  Out_Train.cpp
-  1Lab.vcxproj -> C:\Users\of913\source\repos\4_4_3_3\Proc\1Lab\Debug\1Lab.exe
+﻿  1Lab.cpp
+  Clear_Container.cpp
+  Init_Container.cpp
+  In_Container.cpp
+  In_Transport.cpp
+  In_Airplane.cpp
+  In_Train.cpp
+  Out_Container.cpp
+  Out_Transport.cpp
+  Out_Airplane.cpp
+  Out_Train.cpp
+  Создание кода...
+  1Lab.vcxproj -> D:\Another\Учеба 3 курс 2 семестр\Методы проги\New Labs\1Lab\1LabProc\Debug\1Lab.exe
