@@ -5,7 +5,8 @@ Train* In_Train(ifstream& ifst) {
 
     ifst >> T->Speed; //Считываем скорость
     ifst >> T->Distance; //Считывает расстояние м/у пунктами отправления и назначения
+    ifst >> T->Cargo_weight; //Считываем массу груза
     ifst >> T->Сars_amount; //Считываем число вагонов
-    
+
     return T;
 }

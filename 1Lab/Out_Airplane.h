@@ -7,6 +7,6 @@
 using namespace std;
 
 //Функция вывода информации о самолете
-void Out_Airplane(int Speed, int Distance, Airplane* A, ofstream& ofst);
+void Out_Airplane(int Speed, int Distance, double Cargo_weight, Airplane* A, ofstream& ofst);
 
 #endif // OUT_AIRPLANE_H
