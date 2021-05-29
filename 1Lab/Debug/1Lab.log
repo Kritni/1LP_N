@@ -1,13 +1,4 @@
 ﻿  1Lab.cpp
-  Clear_Container.cpp
-  Init_Container.cpp
-  In_Container.cpp
-  In_Transport.cpp
-  In_Airplane.cpp
-  In_Train.cpp
-  Out_Container.cpp
-  Out_Transport.cpp
-  Out_Airplane.cpp
-  Out_Train.cpp
+  Out_Only_Airplane.cpp
   Создание кода...
   1Lab.vcxproj -> D:\Another\Учеба 3 курс 2 семестр\Методы проги\New Labs\1Lab\1LabProc\Debug\1Lab.exe
