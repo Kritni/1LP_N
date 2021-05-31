@@ -1,7 +1,3 @@
-﻿  Out_Airplane.cpp
-  Out_Container.cpp
-  Out_Train.cpp
-  Transport_Travel_time.cpp
-  Создание кода...
+﻿  Transport_Travel_time.cpp
   LINK : не найден или не выполнена сборка D:\Another\Учеба 3 курс 2 семестр\Методы проги\New Labs\1Lab\1LabProc\Debug\1Lab.exe при последней инкрементной компоновке; выполняется полная компоновка
   1Lab.vcxproj -> D:\Another\Учеба 3 курс 2 семестр\Методы проги\New Labs\1Lab\1LabProc\Debug\1Lab.exe

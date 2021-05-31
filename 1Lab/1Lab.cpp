@@ -5,6 +5,7 @@
 #include "In_Container.h"
 #include "Out_Container.h"
 #include "Clear_Container.h"
+#include "Sort.h"
 
 using namespace std;
 
@@ -29,7 +30,9 @@ int main(int argc, char* argv[]) {
 
     In_Container(Head, Tail, ifst); //Записываем элементы в контейнер
 
-    ofst << "Filled container. " << endl;
+    Sort(Head); //Сортировка контейнера
+
+    ofst << "Filled and sorted container. " << endl;
 
     Out_Container(Head, ofst); //Вывод контейнера
 
