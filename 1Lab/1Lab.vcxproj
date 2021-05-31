@@ -143,12 +143,11 @@
     <ClCompile Include="Clear_Container.cpp" />
     <ClCompile Include="Init_Container.cpp" />
     <ClCompile Include="In_Container.cpp" />
-    <ClCompile Include="In_Ship.cpp" />
     <ClCompile Include="In_Transport.cpp" />
     <ClCompile Include="In_Airplane.cpp" />
     <ClCompile Include="In_Train.cpp" />
     <ClCompile Include="Out_Container.cpp" />
-    <ClCompile Include="Out_Ship.cpp" />
+    <ClCompile Include="Out_Only_Airplane.cpp" />
     <ClCompile Include="Out_Transport.cpp" />
     <ClCompile Include="Out_Airplane.cpp" />
     <ClCompile Include="Out_Train.cpp" />
@@ -158,18 +157,16 @@
     <ClInclude Include="Container.h" />
     <ClInclude Include="Init_Container.h" />
     <ClInclude Include="In_Container.h" />
-    <ClInclude Include="In_Ship.h" />
     <ClInclude Include="In_Transport.h" />
     <ClInclude Include="In_Airplane.h" />
     <ClInclude Include="In_Train.h" />
     <ClInclude Include="Key.h" />
     <ClInclude Include="Out_Container.h" />
-    <ClInclude Include="Out_Ship.h" />
+    <ClInclude Include="Out_Only_Airplane.h" />
     <ClInclude Include="Out_Transport.h" />
     <ClInclude Include="Out_Airplane.h" />
     <ClInclude Include="Out_Train.h" />
     <ClInclude Include="Airplane.h" />
-    <ClInclude Include="Ship.h" />
     <ClInclude Include="Train.h" />
     <ClInclude Include="Transport.h" />
   </ItemGroup>
