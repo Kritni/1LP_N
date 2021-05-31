@@ -5,5 +5,5 @@ void Out_Airplane(int Speed, int Distance, double Cargo_weight, Airplane* A, ofs
     ofst << "Its Load Capacity is " << A->Load_capacity << " kilograms" << endl;
     ofst << "Its Speed is " << Speed << " kilometers/hour" << endl;
     ofst << "And Distance is " << Distance << " kilometers" << endl;
-    ofst << "Its Cargo Weight is " << Cargo_weight << " kilograms" << endl << endl;
+    ofst << "Its Cargo Weight is " << Cargo_weight << " kilograms" << endl;
 }
