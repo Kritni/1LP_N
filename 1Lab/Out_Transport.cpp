@@ -5,10 +5,10 @@
 
 void Out_Transport(Transport* T, ofstream& ofst) {
     if (T->K == AIRPLANE) {
-        Out_Airplane(T->Speed, T->Distance, (Airplane*)T, ofst); //Выводим информацию о самолете
+        Out_Airplane(T->Speed, T->Distance, T->Cargo_weight, (Airplane*)T, ofst); //Выводим информацию о самолете
     }
     else if (T->K == TRAIN) {
-        Out_Train(T->Speed, T->Distance, (Train*)T, ofst); //Выводим информацию о поезде
+        Out_Train(T->Speed, T->Distance, T->Cargo_weight, (Train*)T, ofst); //Выводим информацию о поезде
     }
     else if (T->K == SHIP) {
         Out_Ship(T->Speed, T->Distance, (Ship*)T, ofst); //Выводим информацию о корабле
